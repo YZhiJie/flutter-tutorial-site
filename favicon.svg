@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Flutter 精通之路">
+  <!-- 与 Flutter 品牌色一致：#02569B → #13B9FD 渐变 -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#02569B" />
+      <stop offset="1" stop-color="#13B9FD" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#g)" />
+  <!-- 字母 F：16px 下仍可辨识的最简符号 -->
+  <g fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M23 15v34" />
+    <path d="M23 16h20" />
+    <path d="M23 33h14" />
+  </g>
+</svg>

@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#101a33"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="840" fill="url(#bg)"/>
+
+  <rect x="20" y="16" width="92" height="36" rx="8" fill="#7C3AED"/>
+  <text x="66" y="41" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">EP.02</text>
+  <text x="128" y="43" font-size="26" font-weight="bold" fill="url(#titleGrad)">doctor 全绿行动 · 开发环境搭建</text>
+  <text x="1180" y="41" text-anchor="end" font-size="13" fill="#64748b">Flutter 漫画剧场</text>
+  <rect x="20" y="62" width="1160" height="2" fill="url(#titleGrad)" opacity="0.6"/>
+
+  <g transform="translate(20,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#1e2a44"/>
+    <polygon points="420,0 480,0 200,361 140,361" fill="#22d3ee" opacity="0.05"/>
+    <rect x="14" y="12" width="26" height="26" rx="6" fill="#22d3ee"/>
+    <text x="27" y="31" text-anchor="middle" font-size="15" font-weight="bold" fill="#0b1220">1</text>
+    <text x="50" y="32" font-size="17" font-weight="bold" fill="#e2e8f0">困境 · 满屏红叉</text>
+
+    <rect x="36" y="56" width="330" height="200" rx="8" fill="#0a0f1c" stroke="#f472b6" stroke-opacity="0.5"/>
+    <circle cx="54" cy="74" r="4" fill="#f472b6"/>
+    <circle cx="70" cy="74" r="4" fill="#fbbf24"/>
+    <circle cx="86" cy="74" r="4" fill="#34d399"/>
+    <text x="52" y="108" font-size="12" fill="#f472b6" font-family="'SF Mono',Consolas,monospace">✗ Android toolchain</text>
+    <text x="52" y="132" font-size="12" fill="#f472b6" font-family="'SF Mono',Consolas,monospace">✗ Xcode - CocoaPods missing</text>
+    <text x="52" y="156" font-size="12" fill="#f472b6" font-family="'SF Mono',Consolas,monospace">✗ Android licenses not accepted</text>
+    <text x="52" y="180" font-size="12" fill="#34d399" font-family="'SF Mono',Consolas,monospace">✓ Flutter (Channel stable)</text>
+    <text x="52" y="204" font-size="12" fill="#34d399" font-family="'SF Mono',Consolas,monospace">✓ Chrome</text>
+    <text x="52" y="236" font-size="11" fill="#64748b" font-family="'SF Mono',Consolas,monospace">$ flutter doctor</text>
+
+    <rect x="180" y="278" width="230" height="40" rx="10" fill="#f8fafc"/>
+    <polygon points="410,288 452,276 410,300" fill="#f8fafc"/>
+    <text x="196" y="303" font-size="14" fill="#0b1220">装环境比写代码还难！</text>
+
+    <circle cx="474" cy="270" r="17" fill="#ffd9b3"/>
+    <path d="M457,270 a17,17 0 0 1 34,0 q-2,-12 -17,-12 q-15,0 -17,12 z" fill="#22d3ee"/>
+    <polygon points="470,254 476,242 482,254" fill="#22d3ee"/>
+    <circle cx="468" cy="270" r="2.2" fill="#0b1220"/>
+    <circle cx="480" cy="270" r="2.2" fill="#0b1220"/>
+    <path d="M470,278 q4,4 8,0" stroke="#0b1220" stroke-width="1.4" fill="none"/>
+    <rect x="457" y="285" width="34" height="42" rx="10" fill="#f8fafc"/>
+    <polygon points="474,302 468,296 474,298 480,296" fill="#f472b6"/>
+  </g>
+
+  <g transform="translate(608,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#1e2a44"/>
+    <polygon points="60,0 120,0 400,361 340,361" fill="#a78bfa" opacity="0.05"/>
+    <rect x="14" y="12" width="26" height="26" rx="6" fill="#7C3AED"/>
+    <text x="27" y="31" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">2</text>
+    <text x="50" y="32" font-size="17" font-weight="bold" fill="#e2e8f0">揭秘 · 四站通关图</text>
+
+    <circle cx="84" cy="86" r="17" fill="#ffd9b3"/>
+    <path d="M67,86 a17,17 0 0 1 34,0 q-2,-10 -17,-10 q-15,0 -17,10 z" fill="#e2e8f0"/>
+    <circle cx="78" cy="86" r="5.5" fill="none" stroke="#94a3b8" stroke-width="1.6"/>
+    <circle cx="90" cy="86" r="5.5" fill="none" stroke="#94a3b8" stroke-width="1.6"/>
+    <path d="M83,86 L85,86" stroke="#94a3b8" stroke-width="1.6"/>
+    <circle cx="78" cy="86" r="1.4" fill="#0b1220"/>
+    <circle cx="90" cy="86" r="1.4" fill="#0b1220"/>
+    <path d="M76,94 q8,10 16,0 q-2,10 -8,10 q-6,0 -8,-10 z" fill="#e2e8f0"/>
+    <rect x="66" y="101" width="36" height="44" rx="10" fill="#cbd5e1"/>
+    <rect x="96" y="110" width="20" height="26" rx="3" fill="#0ea5e9"/>
+    <rect x="99" y="115" width="14" height="2" fill="#f8fafc" opacity="0.8"/>
+    <rect x="99" y="120" width="11" height="2" fill="#f8fafc" opacity="0.6"/>
+
+    <rect x="136" y="48" width="400" height="56" rx="10" fill="#f8fafc"/>
+    <polygon points="150,104 100,92 160,94" fill="#f8fafc"/>
+    <text x="152" y="72" font-size="15" fill="#0b1220">别硬磕，环境是四站通关：</text>
+    <text x="152" y="94" font-size="15" fill="#0b1220">SDK → doctor → IDE → 设备。</text>
+
+    <rect x="36" y="130" width="110" height="44" rx="10" fill="#0a0f1c" stroke="#22d3ee" stroke-opacity="0.5"/>
+    <text x="91" y="158" text-anchor="middle" font-size="14" fill="#e2e8f0">Flutter SDK</text>
+    <text x="156" y="159" text-anchor="middle" font-size="15" fill="#64748b">→</text>
+    <rect x="166" y="130" width="110" height="44" rx="10" fill="#0a0f1c" stroke="#7C3AED" stroke-opacity="0.5"/>
+    <text x="221" y="158" text-anchor="middle" font-size="14" fill="#e2e8f0">doctor 体检</text>
+    <text x="286" y="159" text-anchor="middle" font-size="15" fill="#64748b">→</text>
+    <rect x="296" y="130" width="110" height="44" rx="10" fill="#0a0f1c" stroke="#f472b6" stroke-opacity="0.5"/>
+    <text x="351" y="158" text-anchor="middle" font-size="14" fill="#e2e8f0">IDE 插件</text>
+    <text x="416" y="159" text-anchor="middle" font-size="15" fill="#64748b">→</text>
+    <rect x="426" y="130" width="110" height="44" rx="10" fill="#0a0f1c" stroke="#f97316" stroke-opacity="0.5"/>
+    <text x="481" y="158" text-anchor="middle" font-size="14" fill="#e2e8f0">设备运行</text>
+
+    <rect x="36" y="196" width="500" height="88" rx="8" fill="#0a0f1c" stroke="#fbbf24" stroke-opacity="0.35"/>
+    <text x="52" y="220" font-size="13" fill="#e2e8f0">国内先配镜像（写入 shell 配置文件）：</text>
+    <text x="52" y="244" font-size="12" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">export PUB_HOSTED_URL=https://pub.flutter-io.cn</text>
+    <text x="52" y="266" font-size="12" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn</text>
+    <text x="36" y="306" font-size="12" fill="#64748b">配完重新打开终端，让变量生效。</text>
+  </g>
+
+  <g transform="translate(20,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#1e2a44"/>
+    <polygon points="400,0 460,0 180,361 120,361" fill="#f472b6" opacity="0.05"/>
+    <rect x="14" y="12" width="26" height="26" rx="6" fill="#f472b6"/>
+    <text x="27" y="31" text-anchor="middle" font-size="15" font-weight="bold" fill="#0b1220">3</text>
+    <text x="50" y="32" font-size="17" font-weight="bold" fill="#e2e8f0">实证 · 三步跑起来</text>
+
+    <rect x="36" y="56" width="270" height="150" rx="8" fill="#0a0f1c" stroke="#22d3ee" stroke-opacity="0.35"/>
+    <text x="52" y="80" font-size="13" font-weight="bold" fill="#22d3ee">三步走</text>
+    <text x="52" y="108" font-size="12" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">flutter create my_app</text>
+    <text x="52" y="132" font-size="12" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">cd my_app</text>
+    <text x="52" y="156" font-size="12" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">flutter run -d chrome</text>
+    <text x="52" y="184" font-size="11" fill="#64748b">首次构建需下载依赖，稍等</text>
+
+    <text x="330" y="80" font-size="13" font-weight="bold" fill="#f472b6">跑起来之后：</text>
+    <rect x="330" y="100" width="120" height="54" rx="10" fill="#0a0f1c" stroke="#f472b6" stroke-opacity="0.5"/>
+    <text x="390" y="125" text-anchor="middle" font-size="16" font-weight="bold" fill="#fbbf24" font-family="'SF Mono',Consolas,monospace">r</text>
+    <text x="390" y="145" text-anchor="middle" font-size="11" fill="#e2e8f0">热重载</text>
+    <text x="464" y="132" font-size="12" fill="#64748b">保留状态刷 UI</text>
+    <rect x="330" y="166" width="120" height="54" rx="10" fill="#0a0f1c" stroke="#f472b6" stroke-opacity="0.5"/>
+    <text x="390" y="191" text-anchor="middle" font-size="16" font-weight="bold" fill="#fbbf24" font-family="'SF Mono',Consolas,monospace">R</text>
+    <text x="390" y="211" text-anchor="middle" font-size="11" fill="#e2e8f0">热重启</text>
+    <text x="464" y="198" font-size="12" fill="#64748b">重置状态重启</text>
+    <rect x="330" y="232" width="120" height="54" rx="10" fill="#0a0f1c" stroke="#f472b6" stroke-opacity="0.5"/>
+    <text x="390" y="257" text-anchor="middle" font-size="16" font-weight="bold" fill="#fbbf24" font-family="'SF Mono',Consolas,monospace">q</text>
+    <text x="390" y="277" text-anchor="middle" font-size="11" fill="#e2e8f0">退出</text>
+    <text x="464" y="264" font-size="12" fill="#64748b">结束运行</text>
+
+    <rect x="124" y="236" width="300" height="52" rx="10" fill="#f8fafc"/>
+    <polygon points="140,288 100,278 162,288" fill="#f8fafc"/>
+    <text x="140" y="260" font-size="15" fill="#0b1220">跑起来了！热重载也太快了——</text>
+    <text x="140" y="282" font-size="15" fill="#0b1220">改完保存，界面秒更新！</text>
+
+    <circle cx="88" cy="286" r="17" fill="#ffd9b3"/>
+    <path d="M71,286 a17,17 0 0 1 34,0 q-2,-12 -17,-12 q-15,0 -17,12 z" fill="#22d3ee"/>
+    <polygon points="84,270 90,258 96,270" fill="#22d3ee"/>
+    <circle cx="82" cy="286" r="2.2" fill="#0b1220"/>
+    <circle cx="94" cy="286" r="2.2" fill="#0b1220"/>
+    <path d="M84,294 q4,4 8,0" stroke="#0b1220" stroke-width="1.4" fill="none"/>
+    <rect x="71" y="301" width="34" height="42" rx="10" fill="#f8fafc"/>
+    <polygon points="88,318 82,312 88,314 94,312" fill="#f472b6"/>
+  </g>
+
+  <g transform="translate(608,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#1e2a44"/>
+    <polygon points="80,0 140,0 420,361 360,361" fill="#f97316" opacity="0.05"/>
+    <rect x="14" y="12" width="26" height="26" rx="6" fill="#f97316"/>
+    <text x="27" y="31" text-anchor="middle" font-size="15" font-weight="bold" fill="#0b1220">4</text>
+    <text x="50" y="32" font-size="17" font-weight="bold" fill="#e2e8f0">结案 · 全绿 checklist</text>
+
+    <rect x="36" y="56" width="500" height="132" rx="8" fill="#0a0f1c" stroke="#34d399" stroke-opacity="0.35"/>
+    <text x="52" y="84" font-size="13" fill="#34d399">✓ SDK 的 bin 目录已加入 PATH</text>
+    <text x="52" y="114" font-size="13" fill="#34d399">✓ 镜像变量写入 shell 配置并生效</text>
+    <text x="52" y="144" font-size="13" fill="#34d399">✓ flutter doctor 四项全绿</text>
+    <text x="52" y="174" font-size="13" fill="#34d399">✓ IDE 装好 Flutter / Dart 插件</text>
+
+    <rect x="36" y="204" width="500" height="36" rx="8" fill="#f97316" opacity="0.14"/>
+    <rect x="36" y="204" width="6" height="36" fill="#f97316"/>
+    <text x="58" y="228" font-size="13" fill="#f97316">⚠ 坑点：安装路径别带空格和中文，否则构建报错难排查</text>
+
+    <rect x="130" y="258" width="406" height="52" rx="10" fill="#f8fafc"/>
+    <polygon points="146,310 100,302 166,310" fill="#f8fafc"/>
+    <text x="146" y="282" font-size="15" fill="#0b1220">环境一次配好，受益整个项目。</text>
+    <text x="146" y="304" font-size="15" fill="#0b1220">下一话：跑起你的第一个应用！</text>
+
+    <circle cx="84" cy="300" r="17" fill="#ffd9b3"/>
+    <path d="M67,300 a17,17 0 0 1 34,0 q-2,-10 -17,-10 q-15,0 -17,10 z" fill="#e2e8f0"/>
+    <circle cx="78" cy="300" r="5.5" fill="none" stroke="#94a3b8" stroke-width="1.6"/>
+    <circle cx="90" cy="300" r="5.5" fill="none" stroke="#94a3b8" stroke-width="1.6"/>
+    <path d="M83,300 L85,300" stroke="#94a3b8" stroke-width="1.6"/>
+    <circle cx="78" cy="300" r="1.4" fill="#0b1220"/>
+    <circle cx="90" cy="300" r="1.4" fill="#0b1220"/>
+    <path d="M76,308 q8,10 16,0 q-2,10 -8,10 q-6,0 -8,-10 z" fill="#e2e8f0"/>
+    <rect x="66" y="315" width="36" height="44" rx="10" fill="#cbd5e1"/>
+  </g>
+</svg>
